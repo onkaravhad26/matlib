@@ -1,25 +1,58 @@
 import random 
 
-subjects = ["shahkrukh khan", 
-            "virat kohli",
-            "sachin tendulkar",
-            "A auto-rikshaw from delhi ",
-            "a man in palace",
-            "A beautifull women"]
+subjects = [
+    "Shah Rukh Khan",
+    "Virat Kohli",
+    "Sachin Tendulkar",
+    "A Bollywood actor",
+    "A famous businessman",
+    "A beautiful woman",
+    "A police officer",
+    "A school teacher",
+    "A street food seller",
+    "A Delhi auto-rickshaw driver",
+    "A cricket player",
+    "A rich businessman",
+    "A mysterious stranger",
+    "A village farmer",
+    "A famous YouTuber"
+]   
 
-Actions = ["dances with a man",
-           "rides on horse",
-           "walks on ground",
-           "drinks coffee with",
-           "plays cricket ",
-           "sangs a song"]
+actions = [
+    "dances with",
+    "rides a horse with",
+    "plays cricket with",
+    "drinks coffee with",
+    "sings a song for",
+    "fights with",
+    "cooks food for",
+    "takes selfies with",
+    "runs away from",
+    "celebrates a party with",
+    "challenges",
+    "surprises",
+    "teaches dance to",
+    "plays football with",
+    "buys a gift for"
+]
 
-things = ["on a fort",
-          "on a building",
-          "inside a home",
-          "a plate of samosa",
-          "at ganga ghatt",
-          "a handsome man "]
+things = [
+    "a handsome stranger",
+    "a plate of samosas",
+    "a group of monkeys",
+    "a giant elephant",
+    "a mysterious man",
+    "at India Gate",
+    "inside a shopping mall",
+    "on top of a mountain",
+    "at Mumbai railway station",
+    "inside a five-star hotel",
+    "on a cricket ground",
+    "at the Taj Mahal",
+    "in the middle of a busy road",
+    "inside a village house",
+    "at Marine Drive"
+]
 
 while True :
     subject = random.choice(subjects)
